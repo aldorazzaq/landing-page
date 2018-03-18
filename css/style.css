@@ -17,7 +17,7 @@ h2 {
 }
 
 #showcase {
-    background-image: url(https://images.pexels.com/photos/247791/pexels-photo-247791.png?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background-image: url('/images/image-showcase.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -66,12 +66,13 @@ h2 {
 }
 
 .box-a, .box-b, .box-c {
-    border: 3px solid #000;
+    border: 3px solid #2E82FF;
     width: 90%;
     height: 80%;
     padding: 10px;
     overflow: visible;
     margin-top: 100px;
+    border-radius: 10px;
 } 
 
 .fa-user, .fa-cog, .fa-th {
@@ -80,7 +81,7 @@ h2 {
 
 .image-a {
     height: 200px;
-    background-image: url(https://images.pexels.com/photos/240040/pexels-photo-240040.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background-image: url('/images/image-a.jpeg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -113,4 +114,10 @@ footer {
 footer p {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+@media(max-width: 600px){
+    #section-a {
+        display: block;
+    }
 }
