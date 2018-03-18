@@ -17,7 +17,7 @@ h2 {
 }
 
 #showcase {
-    background-image: url(/images/image-showcase.png);
+    background-image: url(https://images.pexels.com/photos/247791/pexels-photo-247791.png?w=1260&h=750&auto=compress&cs=tinysrgb);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -80,7 +80,7 @@ h2 {
 
 .image-a {
     height: 200px;
-    background-image: url(/images/image-a.jpeg);
+    background-image: url(https://images.pexels.com/photos/240040/pexels-photo-240040.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
